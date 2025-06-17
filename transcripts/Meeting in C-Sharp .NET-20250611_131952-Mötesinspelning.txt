@@ -1,0 +1,486 @@
+
+Ja, vi kommer in på det här med, eller vi har kommit in på det här med använda hantering och vi
+har sett att vi kan lägga till den här funktionen när vi startar ett projekt så att vi kan
+börja genom att sätta authentication type till individual accounts så kan vi så förvåga den här
+funktionen inbaka i vår projekt och vi har också sett att vi får två helt nya
+sidan och loginsidan vilket är bra det är också bra det är inte bara bra för att vi
+slipper kåda den där biten själva utan det är också bra som en mall för där vi kan
+se hur saker olika saker funkar.
+Och det tycker att man ska använda det varje gång man har möjligheter varje gång man jobbar i ett
+program som kan generera kåtil en så tycker jag att man ska göra det för att titta på kåden och
+se hur kåden ser ut inte det är naturligtvis är det bra att man får liksom en funktion att man
+slipper kåda själv och det går sedan bara att få att få en funktion att komma igång men det
+är lika intressant att se själva kåden och se hur den biten funkar.
+Så nu kan vi till exempel eftersom vi vet att den här biten funkar på det här sättet så vet
+vi att vet vi hur vi ska göra på andra ställen där vi behöver den här funktionen så här till
+exempel här är vi i den här menyn så vi har sett att om vi om vi är inloggade och sedan så
+ändras de här två år menynorna som är uppe till höger istället för register och login så får vi
+se hello och så den använda namnet och loga loga och det är så det ska vara och man är inloggad då ska man
+inte se login länken då ska man se logga åt länken och man är utloggad då ska man se log in
+länken. Och då vet vi att den don't få och den delen av sidan ändras där är ju en
+där på om man är inloggad eller inte och här ser vi den biten av kåden som gör det och det är helt
+enkelt en ifsats som kollar om användaren är inloggad och eftersom vi vet att
+ett som vi nu vet att det så hade fungerat så kan vi återanvända den här kåden på andra
+ställen så vi kan till exempel bara för liksom för övningen skul så kan vi se om vi kan
+lägga någon lägga den här kålen på en annan sidan till exempel pålis i sidan. Vi vet att de ska
+bara köra i gång på sjöket lite snabbt. Vi vet att vi har den här menyn som vi har den här
+default menyn när vi skapar projektet. Vi har hom som är första sidan och vi har privacy och
+låt att se om vi kan använda den här kåden på att privacy stida så att vi kan visa
+julika saker beröjende på att användaren är inloggad eller inte och då ska vi helt enkelt
+öteranvända den här kåden som vi har här. Så att vi gör till e-home e-viewsmatten
+e-homematten så öppnar vi upp privacy-viewfelen och här kör vi en inject och vi ska injecta
+sign in manager identity user sign in manager identity user och där
+objektet där på vi till sign in manager okay då ska vi se om vi måste installera
+ett paket för det. Sign in manager och det ska vi kolla.
+Nu är vi som du inte tagit in manager identity tall vi inte den installera
+Vi tittar i vår nu get package manager.
+Och blandvera installera det här har vi en som heter identity UI.
+Okej, vi går till browse tabben här och så letar vi efter sign in manager.
+Hmm, dost har inte tillgunkt till den där.
+Okej, så ser vi hur vi har det.
+Kan det vara för att den bara finns i den här area?
+Okej, så ser vi hur vi har det.
+Okej, så ser vi hur vi har det.
+Jämst, du är loin att jucing Microsoft, ASB, Netcore, puntaidentity.
+Förslanda det då.
+Okej, då har vi det där.
+Det här är ju en lugging-partial.
+Ja, jucing Microsoft, entity framework core.
+ASB Netcore, puntaidentity.
+ASB.netcore, puntaidentity.
+Så, okej, bra tack.
+Så, då har vi väl sign in manager och sen...
+Läggar vi också in inject, och den andra var user-manager.
+Och den är user-manager.
+Och ni har vi tillgång till exempel, har vi tillgång till den här user-objektet, vilket representerar användaren.
+Och vi kan skapa en sån här ifsats, där vi kollar om användaren är inloggat.
+Så vi gör det.
+Kan vi lägga till ifs, sign in manager, är sign in, är sign in.
+Och så skickar vi in user där.
+Och så kan vi lägga in, eller gå in den här texten som deler oss i den, lägga in där.
+Så att man får bara säga den om man inloggade.
+Och är man inloggad, så skickar vi ut en annan text.
+Och vi gör det till en pétag också, och då ska vi...
+Och då ska vi lägga till ifsats.
+Och då ska vi lägga till ifsats.
+Vi är alltså så...
+Det är så viktigt med privacy att man får inte ens läsa det privacy-policy utan att vara inloggad.
+Bara de som inloggade får komma åt privacy-policy, så privat är den.
+Men ja, det här är för övlingar en skul.
+Och vi kör.
+Vi kollar om det är inloggningsfunktion fungerar.
+Skulle vi säga vad händer här?
+Där kommer det, okej, på.
+Okej, då är vi inte inloggade, så vi gör till privacy och kollar.
+Vad står det?
+Du har ju haft så belogg dig in to read the privacy-policy.
+Och vi är inte inloggade än, så att...
+Så den här biten är rätt.
+Vi vill det att om man inte inloggade, om den här är falsk, så ska vi...
+Så ska det här visas.
+Så den biten stämmer.
+Då kan vi testa den andra biten och då logga vi in.
+Jag går till login.
+Och här tar jag mest i ett mest sittprintesse.
+Så logger jag in med password.
+Och jag kommer tillbaka till första sidan och nu ska vi testa privacy.
+Och då får vi se, texten.
+Use det spage till det där som ställer här.
+Use det spage till det där.
+Use det spage till det där.
+Use det spage till det där.
+Så kan man göra för att...
+Udda innehåll från användare som man inte vill att de ska komma ihåt.
+Informafion.
+Vi ska också sitta på ett annat sätt att göra detta på.
+Vi kan göra det i vår controller.
+Så att om vi går till...
+Jag ska tänka den här.
+Och även app-settings.
+Och även nugget-solutions behöver vi inte...
+Och då ska vi ge till controllers.
+Och home controller.
+Och vi kan göra samma sak här.
+Så vi har redan en kolda på privacy.
+Här.
+Så vi lämnar den.
+Så att vi sätter...
+Det här är första sidan.
+Indexfunktionen är första sidan.
+Så vi ser att även man måste vara inloggad för att se första sidan.
+Och då gör vi så här.
+Då kan vi lägga till en annotation över en för, eller på den funktionen.
+Och den heter så mycket som authorize.
+Och då måste vi importera authorize.
+Using, då måste vi lägga till det här.
+Och den här.
+Using Microsoft.punt.ospanetcore.punt.authorize.
+Och det som det är, det är helt enkelt att den...
+Liga på den, den skyddar den funktionen.
+Så att den här funktionen får bara köra oss...
+Om användaren har inloggad.
+Men den är samma sak som vi gjorde här i privacy.
+Filen.
+Men vi har det i kontrolleren i stället.
+Så att vi shopp, vi kör projektet.
+Och eftersom vi har lagt den här authorize direkt på första sidan.
+Så bör vi inte få lov att säga, första sidan.
+Så jag trycker på run.
+Och då kommer vi hit.
+Så att vi får inte lov att komma till första sidan.
+Eftersom vi har den här, vi sätter den här annotation authorize.
+Så att när applikationen försökte ladda den här sidan, vilket den ska göra för det första sidan,
+så kommer den till den här authorize funktionen.
+Och då säger den.
+Nej, den här sidan får du bara se om du är inloggad.
+Och då kollar den.
+Är användaren inloggad.
+Och det är ju en användaren till inloggad nät som vi har för sid startat på projektet.
+Så då blev vi skickade till illognisidan.
+Och då kan vi låga in.
+Och då får vi se authorize.
+Och man kan göra det på tre olika sätt.
+Man kan skydda information på båda de här sätten.
+Och där är ju skillnad på båda och det är ju att om vi jobbar det här sättet som vi gjorde här i privacy,
+privacy, filen.
+Det vi kan göra är att vi kollar och man vill lära en inloggad och så kan vi visa i olika saker.
+Och man vill lära en inloggad, då får vi se ut den informationen som man vill säga.
+Och man vill lära inte en inloggad, så kan vi skicka ut en, eller kan vi visa en annan text.
+Och kanske så kan man lägga in en link till login-sidan här.
+Det skulle vara bra ut ett användaren väljens perspektiv, så att man kan,
+så att man har en link där det står och klickar på login, så att man kan logga in och säga den informationen man vill säga.
+Och man däremot gör det i controllers som vi gjorde här, så så blev man skickat i en inlogg-sidan direkt.
+Så att så fort man vill komma ihåg någonting som man inte får löva att säga.
+Så så blev man skickat till inlogg-sidan.
+Och vi bära hamnar där och med till exempel logga ut nu.
+Den här funktionen är inställd så att när man logger ut från applikationen så ska man komma till första sidan.
+Så att om jag logger ut så kommer applikationen att skicka mig till första sidan, men eftersom första sidan är skuddad, så kommer vi att hamna på inlogg-sidan.
+Så vi klickar på login-sidan och det hamnar vi på inlogg-sidan, så att vi kan logga in så att vi kan se första sidan.
+Så det är liksom första nivån av skydde, vad man vill säga säga det.
+Så det här är ett, här finns två i det här fallet, finns det två olika sortos användare.
+Det finns inloggade användare och sen finns det besökare där vi säger användare som inte är inloggade.
+Och då måste vi hålla reda på de här två grupperna och säga att den som är inloggad eller den som inte inloggad inte säger allting.
+Den som inte inloggad för begrensa tillgång till informationen med den antarliggenden som har inloggade och får komma åt allting.
+Men vi kan ha flera nivåer eller flera sortos användare och det är, och då använder vi att rolla.
+Då ska vi stoppa, att plicka för den här så och då ska vi ha lite anteckningar.
+Så att här jobbar vi med hålla.
+Och då har vi något som heter rollbased access control.
+Så förkortas med initiala låna.
+Så om ni säger, ni ibland så skriver man bara erbaka typ om ni läser en artikel eller någonting och ni bara ser.
+Och det bara står erbaka och de bara utgår i fröverna att man ska alla väta vad det betyder.
+Så ska ni tänka på detta från och med ni.
+Det står för rollbased access control.
+Det är precis vad det säger, det är att vi kontrollerar access, alltså tillgång.
+Vi kontrollerar tillgången till informationen.
+Och vi baserar den här tillgången och kontrollen på använderna så rollor.
+Och beroende på vilken roll man har.
+Så kan man göra olika saker i.
+Jag blickar funnen.
+Och jag visade de här tabellorna.
+Jag visade de här tabellorna i.
+Alla de här tabellorna, vi fick skitabellor.
+När vi väljer det här alternativet, att vi ska ha använder hantering när vi skapar projektet,
+då får vi de här utabellorna som en del av dig som behövs för att hantera använder.
+Men som jag sa så kommer vi bara att vi kommer bara fokusera på tre stycken av tabellorna.
+Så det är inte så att vi verkligen behöver alla de här skitabellorna.
+Utan det de här skitabellorna är att man kan, det ger oss som möjligheten att använda flera funktioner
+så att vi kan styra använderna och använder hanteringen och flera olika sätt.
+Det här man kan specialisera sig på den här området och bli en expert på just det här.
+Så att man blir en expert på den här använder hanteringen inom.
+Så det därför vi har så många tabellor, det är för att vi ska kunna använda de om vi behöver de.
+Men vi kommer att titta på de här tre som jag nämnde innan.
+Vi har redan använt OSB net users och där har vi den.
+Så här har vi en användare så alla användarna som skapas hamnar i den här tabellen.
+Så vi har en användare och då ska vi se nästa tabell som är intressant är OSB net Rose.
+Om vi tror att på kolumnarna det här så har vi.
+Vi behöver bara pröja som ID och namn än så länge.
+Så att bör att skapa en roll så behöver vi bara matta in ett ID och ett namn.
+Så vi gör det och vi försöker göra det här i den här vän.
+Det borde gå.
+Vi går till om vi öppnar och vi ser också net rolls.
+Ja, vi höjer gå klicka på tabellen och så tar vi view data och då ska den vara tom.
+Och så kollar vi om det inte går att fylla i.
+Du bara sätter en äta där.
+Det stämmer inte om vi sätter en äta i en sträng.
+Den måste inte hella.
+Varför vill den inte ge urkänner det?
+Okej, enkel.
+Ja, okej.
+Vi sätter en...
+Då sätter vi bara en äta.
+Det kommer inte att finka.
+Okej, och såna.
+Och så kan vi döpa den till Manager.
+Manager, så.
+Och...
+Ja, blev det svaret.
+Har alla lyckats lägga in den här informationen?
+Okej.
+Okej.
+Okej.
+Okej, det vi ska göra ned är att solet har vi en roll.
+Och då tittar vi på den tredje tabellen som vi ska jobba med.
+Och det är tabellen som heter OSB Net User Rolls.
+Vilket du är den här tabellen som ska kryta ihop,
+som ska koppla ihop en användare med en roll.
+Och då tittar vi på den.
+Och då kan vi lägga in data idén på samma sätt som vi gjorde nu.
+Men nu vet vi att rollen har idén ett,
+men vi vet inte med att användare är idén.
+Så den måste vi ta reda på.
+Så vi vet att rollen har idén ett.
+Och då tar vi reda på användaren.
+En användaren har vi inte djuda.
+Har vi användarna?
+Och så här klickar vi på...
+Du blir klicka på idén.
+Och så tar jag kopiera den.
+Kontroll C.
+Så här är den här bara för att se.
+Okej, det ser rätt ut.
+Bra.
+Nu har vi användaren idén där.
+Och då går vi tillbaka till OSB User Rolls.
+Så vi går till tabellen OSB Net User Rolls.
+Vi har gått klicka på den.
+Så tar vi view data.
+Och så klickar vi in user idén här.
+Och sen klickar vi in.
+Sättar vi en äta där.
+Rollen har idén ett.
+Så trycker jag på tab.
+Och då har radens barats.
+Så nu har vi kopplat ihop.
+Vi har en användare och en roll.
+Och där man är i hukoplade.
+Och nu kan vi använda det här i vår kjord.
+Så nu har vi möjligheten att kolla inte bara om användaren är inloggad
+men vi kan också kolla att användaren har rätt roll.
+Så att i kontroller, i honkontroller,
+där vi har satt authorize per index sidan.
+Vi ändrar det.
+Det blir lite konstigt om vi måste låga inför sig i första sidan.
+Vi har så att vi lörter första sidan vara öppen för allmänheten.
+Och så skapar vi här en ny funktion som vi dör på till
+adultas eller adult, public, action, result, adult.
+Så där.
+Och så retornar vi en view.
+Och så skapar vi en view här i honom.
+Så här går klickar vi på honom.
+Och till Ed, view.
+Vi väljer en tom razor view.
+Och där tar vi till adult.
+Så där.
+Och här så går vi till en helveteag.
+Och så har vi en paragraf.
+Så där.
+Vi är en väldigt nöjseorganisation.
+Och då får vi skälvasa avalia.
+Vi ser väldigt gud mot dogs.
+Oj.
+Så där.
+Okej, och den har skall vi nedskydda.
+Så den här.
+Här lägger vi till vår annotation.
+Så. Och här är inte ens efter annotation.
+Så lägger vi till roles.
+Jag tilldelas.
+Manager.
+Så.
+Så nu kan bara en användare som är inloggad och har rollen manager,
+kommer åt adult sidan.
+Vi testar det.
+Vi kör programmet.
+Då.
+Vi har inte lagt till adult där.
+Okej, så vi måste soffa till adult manuellt.
+Baut sidan finns inte.
+Okej.
+Sidan finns där.
+Baut.
+Och sidan.
+Insta.
+Det är en annan siffror för ni.
+Det är ett stort aktion result.
+Det är ett stort aktion result.
+Därför har den inte klagat på dig innan.
+Och en där.
+Det testar.
+Här. Okej.
+Jag tror vi måste gå till home först.
+Vi måste gå till home controller.
+Jag gick direkt till.
+Jag skrev baut här.
+Jag skrev baut här.
+Då tolkar det som att det finns en controller som heter abaut.
+Men det gör inte utan abaut finns i controller home.
+Och här finns abaut.
+Och då fick vi inte komma in.
+Bra.
+Och då måste vi logga in.
+Nu kommer vi att logga in med messy som ju har rollen manager.
+Så att vi ska se sidan.
+Okej, logga in.
+Exist denied.
+Okej, så har jag det i alla fall om jag inte får säga det.
+Så att vi är inloggade.
+Men vi har inte rätt roll.
+Vilket betyder att vi har gjort något fel i koden.
+Så frågan är vad det är.
+Och frågan är om.
+Manager, då ska vi se.
+Har jag stavat rätt.
+Har jag döpt den här rollen till manager.
+Det var alltså.
+Manager.
+Okej.
+Den biten stämmer.
+Vi ser hur.
+Vi ska följa väl den Google.
+In OSP, dotnet, Core, authorize roles.
+Roll-based authorization.
+Nu ska vi se.
+Jag har stavat administrator roles till delas administrator.
+Nu ska vi se.
+Hmm.
+Manager.
+Manager.
+Vi tar den och kopiera där från kontrol C.
+Så klesar vi in det där.
+Nu, det stämmer det.
+Nu ska vi se.
+Om jag tar bort det här.
+Nu ska vi testa.
+Vi ska göra fältesta att se att det funkar utan rollen.
+Om vi är åtta baut om rollen inte spelar någon roll.
+Klippa ut det här.
+Så det räcker.
+Nu ska jag kunna se sidan om jag är inloggad.
+Det ska räcka.
+Vi testar det.
+Vi är så far till om baut där.
+Vi kommer inte in bra.
+Då ska vi logga in som Messi.
+Då kommer vi tillbaka.
+Det funkar.
+Det är bara den biten som har med rollen att göra som inte funkar.
+Då vet vi det.
+Då kan vi stoppa.
+Programmet och klesa in det här igen.
+Då ska vi...
+Nu ska vi...
+Det ska se vad Anye USB letzte i skitskiften har.
+varma pen diekning, vad som gör att den var, 집에 att ta en färre sånt.
+Hi
+All integrity
+positions
+First thing
+Must
+Keep
+it
+ricting
+by
+I
+P
+alright
+my
+Span
+ic
+I
+spann
+That
+ros
+I
+Mis mark på Net user rolls, då har vi den.
+Kan vi k點ma ut den er stäng bror,
+Det är lite som vi kan aldrig utgio.
+user
+reshar in
+This shall be an system
+Som dagel, diagnostics
+Denk debug
+Denk write line
+user
+Denk
+Asclaim is enroll
+Set is enroll
+Manager
+Så
+Det börjar bli fast elosant
+Och då ska vi före i
+Output
+Då tar vi bort det här
+Så att vi vill
+Vi vill inte ha rollen i
+Som vi kommer inte in
+Okej, vi kör
+Vi lokar in och så får vi se vilka roller
+Eller om den har den rollen
+Okej, vi lokar in
+När vi ser
+Still
+Och sen så får vi till
+Adout
+Homeadout
+Vi kommer in där
+Så går vi in
+Så går vi hit och tittar
+Fals, okej
+Så använder den här
+Har vi utskriften
+Fals
+Så använder den
+Ha inte den rollen
+Det var märkligt
+Om jobb
+Fals, okej
+Om jobb
+Fals, okej
+Ändra
+Ja
+Roll i de är ändra det till två
+Så går det inte, okej
+Det är bra
+Det måste vara ett där
+Och kommer fals, okej
+Ändra här
+Ändra använder den i det
+Så ska det heller inte funka
+Nej, bra
+Ja, okej, de stämmer ju
+Ja, okej, de stämmer ju
+Ja, okej, de stämmer ju
+Ja, okej, de stämmer ju
+Ja, okej, de stämmer ju
+Ja, okej, de stämmer ju
+Eller nöga såma kollekt med sätgpt
+Söfonijana brettar
+Va sätgpt är så
+Söfonijana
+Ja, okej
+Ja, okej
+Ja, okej
+Ja, okej
+Ja, okej
+Ja, okej
+Ja, okej
+Ja, okej
+Ja, okej
+Vad stämmer hade den när jag heter hälte?
+flera otra tävflower
+och kommer till en så här
+huvudál
+Vi testar här uppe i stället så att hela Home Controller måste vara, så att hela Home Controller är skitat.
+Det är det som inte funkar, måste man skitat hela Controller.
+Nej, det är lite för vi har ju sett här att användaren har inte den rollen.
+Det var narkligt.
+Vi har ju inte den här uppe i stället så att hela Home Controller är skitat.
+Vi har ju inte den rollen, så att hela Home Controller är skitat.
+Vi har ju inte den rollen, så att hela Home Controller är skitat.
+Vi har ju inte den rollen, så att hela Home Controller är skitat.
+Jag kommer att behöva fälsa det här, så vi har så att jag får fälsa det här nio.
+Vi tar en pause och sen så ser jag till när det är klart och så visar jag, eller jag ger en koden så tittar vi på det i målen, så att ni förra den rättaste koden i kätten.
+Så att vi tar en pause nu till 14 och 30, och sen så kör vi självstudio, och så fort jag fått rätt på det här så...
+...få en koden i kätten.
+Okej, men då tar vi en rest.
+Tack på det då, vi hälsade till senare.

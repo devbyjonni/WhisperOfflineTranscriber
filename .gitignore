@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+*.egg-info/
+
+# Environment variables
+.env
+.env.*
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Audio files
+audio/*.m4a
+audio/*.mp3
+audio/*.wav
+
+# Transcripts
+transcript.txt

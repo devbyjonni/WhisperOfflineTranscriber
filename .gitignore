@@ -37,4 +37,4 @@ whisper.cpp/*.o
 *.swp
 *.swo
 *.bak
-*.tmp
+*.tmpwhisper.cpp/

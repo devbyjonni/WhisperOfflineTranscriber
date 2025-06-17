@@ -13,6 +13,7 @@ Easily transcribe `.m4a`, `.mp3`, or `.wav` files with no internet connection an
 - 🔒 Fully offline, privacy-friendly
 - ⚙️ Lightweight shell script for automation
 - 🧪 Beginner-friendly setup on macOS
+- 🌍 Language auto-detection or force a specific language (like `sv` for Swedish)
 
 ---
 
@@ -42,10 +43,12 @@ pip install -r requirements.txt
 2. Run the transcription script:
 
    ```bash
-   ./transcribe.sh
+   ./transcribe_cpp.sh "audio/your-audio-file" [language]
    ```
 
-3. The transcript will be saved to `transcript.txt` in the root directory.
+   Replace `[language]` with e.g. `sv` for Swedish or leave it blank for auto-detection.
+
+3. The transcript will be saved to the `transcripts/` folder.
 
 ---
 
@@ -54,8 +57,9 @@ pip install -r requirements.txt
 ```
 WhisperOfflineTranscriber/
 ├── audio/              # Drop your audio files here
-├── transcript.txt      # Generated transcript
-├── transcribe.sh       # Shell script to run transcription
+├── transcripts/        # Generated transcripts
+├── transcribe_cpp.sh   # Shell script to run C++ Whisper transcription
+├── transcribe.sh       # Optional Python-based script (legacy)
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── .gitignore          # Excludes virtualenv, audio files, etc.

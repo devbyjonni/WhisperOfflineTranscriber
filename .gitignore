@@ -17,9 +17,24 @@ venv/
 *.log
 
 # Audio files
-audio/*.m4a
-audio/*.mp3
-audio/*.wav
+audio/
+!audio/.gitkeep
 
-# Transcripts
+# Transcripts (auto-generated output)
 transcript.txt
+transcripts/
+!transcripts/.gitkeep
+
+# whisper.cpp builds and binaries
+whisper.cpp/build/
+whisper.cpp/bin/
+whisper.cpp/models/
+whisper.cpp/*.exe
+whisper.cpp/*.bin
+whisper.cpp/*.o
+
+# Ignore shell history or temp files
+*.swp
+*.swo
+*.bak
+*.tmp
